@@ -1,0 +1,21 @@
+body {
+    background-color: $body-bg;
+}
+
+.fa {
+    font-family: "Font Awesome 5 Free";
+}
+
+.bio-box {
+    margin: $mdUnit * 2 0;
+    background-color: #fff;
+    padding: $mdUnit;
+    box-shadow: 0 0 20px 2px #ccc;
+
+    &__timeline-wrapper {
+        padding-left: $baseUnit;
+        @media (min-width: 440px) {
+            padding-left: $lgUnit + 30;
+        }
+    }
+}

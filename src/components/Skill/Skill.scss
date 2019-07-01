@@ -1,0 +1,11 @@
+.skill {
+    &__item {
+        margin-bottom: $lgUnit;
+    }
+}
+
+.skill-box {
+    border-bottom: 1px solid $dark;
+    padding: $baseUnit $baseUnit/2;
+    margin-bottom: $baseUnit;
+}
