@@ -27,22 +27,20 @@
         ]
     },
     "dependencies": {
-        "@fortawesome/fontawesome-free": "^5.9.0",
+        "@fortawesome/fontawesome-free": "^5.11.2",
         "bootstrap": "^4.3.1",
-        "gh-pages": "^2.0.1",
-        "html-react-parser": "^0.8.0",
-        "react": "^16.8.6",
-        "react-dom": "^16.8.6",
-        "react-scripts": "3.0.1",
-        "react-star-rating-component": "^1.4.1"
+        "gh-pages": "^2.1.1",
+        "html-react-parser": "^0.9.1",
+        "react": "^16.11.0",
+        "react-dom": "^16.11.0",
+        "react-scripts": "3.2.0"
     },
     "devDependencies": {
-        "@types/jest": "24.0.15",
-        "@types/node": "12.0.10",
-        "@types/react": "16.8.22",
-        "@types/react-dom": "16.8.4",
-        "@types/react-star-rating-component": "^1.4.0",
-        "node-sass": "^4.12.0",
-        "typescript": "3.5.2"
+        "@types/jest": "24.0.19",
+        "@types/node": "12.11.6",
+        "@types/react": "16.9.9",
+        "@types/react-dom": "16.9.2",
+        "node-sass": "^4.13.0",
+        "typescript": "3.6.4"
     }
 }
