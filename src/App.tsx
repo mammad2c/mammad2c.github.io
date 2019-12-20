@@ -2,7 +2,7 @@ import React from "react";
 import "./App.scss";
 import MyAvatar from "./assets/images/avatar.jpg";
 import Timeline from "./components/Timeline/Timeline";
-import Skill from "./components/Skill/Skill";
+import Skills from "./components/Skills/Skills";
 
 const App: React.FC = () => {
   return (
@@ -32,7 +32,7 @@ const App: React.FC = () => {
             </div>
           </div>
           <div className="col-12 col-lg-4">
-            <Skill />
+            <Skills />
           </div>
         </div>
       </div>

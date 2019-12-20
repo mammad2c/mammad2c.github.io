@@ -7,12 +7,8 @@ const skills = [
     rate: 4
   },
   {
-    title: "React Native",
-    rate: 4
-  },
-  {
     title: "React Redux",
-    rate: 5
+    rate: 4
   },
   {
     title: "Redux Saga",
@@ -23,20 +19,16 @@ const skills = [
     rate: 3
   },
   {
-    title: "Redux Persist",
-    rate: 2
-  },
-  {
-    title: "Immutable Js",
-    rate: 4
-  },
-  {
     title: "VueJs",
     rate: 3
   },
   {
     title: "Vuex",
     rate: 2
+  },
+  {
+    title: "Server Side Rendering",
+    rate: 4
   },
   {
     title: "Ruby on Rails",
@@ -48,19 +40,19 @@ const skills = [
   },
   {
     title: "Gulp Js",
-    rate: 5
+    rate: 4
   },
   {
     title: "Webpack",
-    rate: 3
+    rate: 4
   },
   {
     title: "Bootstrap",
-    rate: 5
+    rate: 4
   },
   {
     title: "SASS/LESS",
-    rate: 5
+    rate: 4
   },
   {
     title: "Node Js",
@@ -107,16 +99,16 @@ const languages = [
   }
 ];
 
-const Skill: React.FC = () => {
+const Skills: React.FC = () => {
   return (
-    <div className="skill">
-      <div className="skill__item">
+    <div className="skills">
+      <div className="skills__item">
         <h2>Skills:</h2>
         {skills.map((item, index) => (
           <SkillBox key={index} title={item.title} rate={item.rate} />
         ))}
       </div>
-      <div className="skill__item">
+      <div className="skills__item">
         <h2>Languages:</h2>
         {languages.map((item, index) => (
           <SkillBox key={index} title={item.title} rate={item.rate} />
@@ -126,4 +118,4 @@ const Skill: React.FC = () => {
   );
 };
 
-export default Skill;
+export default Skills;
