@@ -16,11 +16,11 @@ const skills = [
   },
   {
     title: "VueJs",
-    rate: 4
+    rate: 5
   },
   {
     title: "Vuex",
-    rate: 4
+    rate: 5
   },
   {
     title: "Server Side Rendering",
