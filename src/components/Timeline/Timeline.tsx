@@ -62,10 +62,11 @@ const experiences = [
     }
   },
   {
-    label: "Fullstack Developer",
-    content: `<h5>Takhfifan Company</h5> 
-            <p>Takhfifan is the first and most popular group buying deals and discounts bed in Iran</p>
-            <p>Working at Takhfifan as Fullstack Developer. Working with Ruby on Rails on backend and VueJs on Front-End</p>`,
+    label: "Front-End Developer",
+    content: `<h5>Buzzjective</h5> 
+                <p> Buzzjective is a great company for building websites, applications ... .</p>
+                <p> We are a competent team committed to providing you with the best service </>
+              `,
     duration: {
       from: "2019-05"
     }

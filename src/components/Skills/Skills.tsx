@@ -31,10 +31,6 @@ const skills = [
     rate: 4
   },
   {
-    title: "Ruby on Rails",
-    rate: 2
-  },
-  {
     title: "Typescript",
     rate: 4
   },
