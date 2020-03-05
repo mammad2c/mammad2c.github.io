@@ -4,11 +4,15 @@ import SkillBox from "./SkillBox";
 const skills = [
   {
     title: "ReactJs",
-    rate: 4
+    rate: 5
   },
   {
     title: "Redux",
-    rate: 4
+    rate: 5
+  },
+  {
+    title: "MobX",
+    rate: 3
   },
   {
     title: "VueJs",
@@ -36,11 +40,11 @@ const skills = [
   },
   {
     title: "Bootstrap",
-    rate: 4
+    rate: 5
   },
   {
     title: "SASS/LESS",
-    rate: 4
+    rate: 5
   },
   {
     title: "Node Js",
@@ -48,7 +52,7 @@ const skills = [
   },
   {
     title: "CSS/CSS3",
-    rate: 4
+    rate: 5
   },
   {
     title: "HTML/HTML5",
