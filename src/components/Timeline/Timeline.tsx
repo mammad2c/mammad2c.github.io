@@ -147,6 +147,19 @@ const projects = [
   }
 ];
 
+const oppensourceProjects = [
+  {
+    label: "Mmd React SSR",
+    content: `React Server Side rendered application (isomorphic) with support fetch data like Next.js using React Router`,
+    url: "https://github.com/mammad2c/mmd-react-ssr"
+  },
+  {
+    label: "Mmd Persian Datepicker",
+    content: `A pure js persian datepicker, powered by TypeScript :)`,
+    url: "https://github.com/mammad2c/mmd-persian-datepicker"
+  }
+];
+
 const volunteerWorks = [
   {
     label: "Front-End Developer",
@@ -222,44 +235,55 @@ const interests = [
 const Timeline: React.SFC = () => (
   <div className="timeline">
     {/* Personal Info */}
-    <TimelineBox iconName="fa-user" title="Personal Info" data={personalInfo} />
+    <TimelineBox
+      iconName="fa fa-user"
+      title="Personal Info"
+      data={personalInfo}
+    />
 
     {/* Summary */}
-    <TimelineBox iconName="fa-dot-circle" title="Summary" data={summary} />
+    <TimelineBox iconName="fa fa-dot-circle" title="Summary" data={summary} />
 
     {/* Experiences */}
     <TimelineBox
-      iconName="fa-business-time"
+      iconName="fa fa-business-time"
       title="Experiences"
       data={experiences}
     />
 
     {/* Projects */}
-    <TimelineBox iconName="fa-tv" title="Projects" data={projects} />
+    <TimelineBox iconName="fa fa-tv" title="Projects" data={projects} />
 
     {/* Volunteer Works */}
     <TimelineBox
-      iconName="fa-heart"
+      iconName="fa fa-heart"
       title="Volunteer Works"
       data={volunteerWorks}
     />
 
+    {/* Opensource Projects  */}
+    <TimelineBox
+      iconName="fa fa-hands-helping"
+      title="Opensource Projects"
+      data={oppensourceProjects}
+    />
+
     {/* Education */}
     <TimelineBox
-      iconName="fa-graduation-cap"
+      iconName="fa fa-graduation-cap"
       title="Education"
       data={educations}
     />
 
     {/* Certificates */}
     <TimelineBox
-      iconName="fa-certificate"
+      iconName="fa fa-certificate"
       title="Certificates"
       data={certificates}
     />
 
     {/* Interests */}
-    <TimelineBox iconName="fa-star" title="Interests" data={interests} />
+    <TimelineBox iconName="fa fa-star" title="Interests" data={interests} />
   </div>
 );
 

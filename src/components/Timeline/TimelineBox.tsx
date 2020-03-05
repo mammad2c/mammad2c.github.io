@@ -11,6 +11,7 @@ interface IProps {
       from: string;
       to?: string | null;
     };
+    url?: string;
   }>;
   children?: ReactNode;
 }
@@ -18,7 +19,7 @@ interface IProps {
 const TimelineBox = ({ iconName, title, data }: IProps) => (
   <section className="timeline-box">
     <h2 className="timeline-box__title">
-      <i className={`timeline-box__icon fa ${iconName}`} />
+      <i className={`timeline-box__icon ${iconName}`} />
       {title}
     </h2>
 
@@ -36,6 +37,7 @@ const TimelineBox = ({ iconName, title, data }: IProps) => (
         )}
         {item.label && <h4 className="timeline-box__label">{item.label}</h4>}
         <div className="timeline-box__content">{parseHTML(item.content)}</div>
+        {item.url && <a href={item.url}>{item.url}</a>}
       </div>
     ))}
   </section>

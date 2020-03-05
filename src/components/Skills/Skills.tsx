@@ -7,24 +7,16 @@ const skills = [
     rate: 4
   },
   {
-    title: "React Redux",
+    title: "Redux",
     rate: 4
-  },
-  {
-    title: "Redux Saga",
-    rate: 4
-  },
-  {
-    title: "Redux Thunk",
-    rate: 3
   },
   {
     title: "VueJs",
-    rate: 3
+    rate: 4
   },
   {
     title: "Vuex",
-    rate: 2
+    rate: 4
   },
   {
     title: "Server Side Rendering",
@@ -35,7 +27,7 @@ const skills = [
     rate: 4
   },
   {
-    title: "Gulp Js",
+    title: "GulpJs",
     rate: 4
   },
   {
@@ -56,7 +48,7 @@ const skills = [
   },
   {
     title: "CSS/CSS3",
-    rate: 5
+    rate: 4
   },
   {
     title: "HTML/HTML5",
@@ -64,7 +56,7 @@ const skills = [
   },
   {
     title: "Git",
-    rate: 4
+    rate: 3
   },
   {
     title: "Express Js",
