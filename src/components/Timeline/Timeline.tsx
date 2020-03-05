@@ -180,7 +180,8 @@ const educations = [
     label: "Bachelor of Computer Engineering",
     content: ``,
     duration: {
-      from: "2015-12"
+      from: "2016-1",
+      to: "2020-1"
     }
   }
 ];
