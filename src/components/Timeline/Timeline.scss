@@ -56,12 +56,11 @@
 
   &__title {
     margin-bottom: $mdUnit;
-    // word-wrap: break-word;
-    word-break: break-all;
+    word-break: break-word;
   }
 
   &__content {
-    word-break: break-all;
+    word-break: break-word;
   }
 
   &__content h5 {
@@ -87,10 +86,17 @@
     width: 85px;
   }
 
-  @media (max-width: 439px) {
+  @media (max-width: 767px) {
     &__duration {
       position: static;
       margin-bottom: $baseUnit;
+      background: $dark;
+      width: 100%;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-weight: bold;
+      line-height: 1;
     }
   }
 }

@@ -30,8 +30,8 @@ const TimelineBox = ({ iconName, title, data }: IProps) => (
             {item.duration.from}
             {item.duration.to !== null
               ? item.duration.to
-                ? `- ${item.duration.to}`
-                : "- present"
+                ? ` - ${item.duration.to}`
+                : " - present"
               : null}
           </div>
         )}

@@ -6,6 +6,16 @@ body {
   font-family: "Font Awesome 5 Free";
 }
 
+.my-info {
+  @media (max-width: 767px) {
+    text-align: center;
+
+    .avatar {
+      margin: 0 auto;
+    }
+  }
+}
+
 .bio-box {
   margin: $mdUnit * 2 0;
   background-color: #fff;
@@ -14,7 +24,7 @@ body {
 
   &__timeline-wrapper {
     padding-left: $baseUnit;
-    @media (min-width: 440px) {
+    @media (min-width: 768px) {
       padding-left: $lgUnit + 30;
     }
   }
