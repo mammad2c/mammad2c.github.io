@@ -7,8 +7,16 @@ body {
 }
 
 .my-info {
+  &__initials {
+    margin-left: 30px;
+  }
+
   @media (max-width: 767px) {
     text-align: center;
+
+    &__initials {
+      margin-left: 0;
+    }
 
     .avatar {
       margin: 0 auto;

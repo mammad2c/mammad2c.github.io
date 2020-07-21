@@ -20,9 +20,9 @@ const App: React.FC = () => {
                   />
                 </div>
                 <div className="col-12 col-md-8">
-                  <div className="ml-30">
-                    <h1 className="my-name">Mohammad Toosi</h1>
-                    <h3 className="my-expert">Front-End Developer</h3>
+                  <div className="my-info__initials">
+                    <h1 className="my-info__name">Mohammad Toosi</h1>
+                    <h3 className="my-info__expert">Front-End Developer</h3>
                   </div>
                 </div>
               </div>
