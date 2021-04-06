@@ -1,12 +1,11 @@
-import React, { ReactNode } from "react";
-import parseHTML from "html-react-parser";
+import { ReactNode } from "react";
 
 interface IProps {
   iconName: string;
   title: string;
   data: Array<{
     label?: string;
-    content: string;
+    content: JSX.Element;
     duration?: {
       from: string;
       to?: string | null;
@@ -36,7 +35,7 @@ const TimelineBox = ({ iconName, title, data }: IProps) => (
           </div>
         )}
         {item.label && <h4 className="timeline-box__label">{item.label}</h4>}
-        <div className="timeline-box__content">{parseHTML(item.content)}</div>
+        <div className="timeline-box__content">{item.content}</div>
         {item.url && <a href={item.url}>{item.url}</a>}
       </div>
     ))}
