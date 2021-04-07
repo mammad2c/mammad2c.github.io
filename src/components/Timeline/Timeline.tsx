@@ -273,6 +273,9 @@ const interests = [
   {
     content: <>Game</>,
   },
+  {
+    content: <>Movie</>,
+  },
 ];
 
 const Timeline: React.SFC = () => (

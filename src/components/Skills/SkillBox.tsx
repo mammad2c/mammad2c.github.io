@@ -7,7 +7,7 @@ interface IProps {
 
 const SkillBox = ({ title, rate }: IProps) => (
   <div className="skill-box d-flex align-items-center justify-content-between">
-    <h4>{title}</h4>
+    <h5>{title}</h5>
     <StarRatingComponent name={title} value={rate} />
   </div>
 );

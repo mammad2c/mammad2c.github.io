@@ -94,13 +94,13 @@ const Skills: React.FC = () => {
   return (
     <div className="skills">
       <div className="skills__item">
-        <h2>Skills:</h2>
+        <h3>Skills:</h3>
         {skills.map((item, index) => (
           <SkillBox key={index} title={item.title} rate={item.rate} />
         ))}
       </div>
       <div className="skills__item">
-        <h2>Languages:</h2>
+        <h3>Languages:</h3>
         {languages.map((item, index) => (
           <SkillBox key={index} title={item.title} rate={item.rate} />
         ))}

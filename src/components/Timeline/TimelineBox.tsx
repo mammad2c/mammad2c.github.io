@@ -17,10 +17,10 @@ interface IProps {
 
 const TimelineBox = ({ iconName, title, data }: IProps) => (
   <section className="timeline-box">
-    <h2 className="timeline-box__title">
+    <h3 className="timeline-box__title">
       <i className={`timeline-box__icon ${iconName}`} />
       {title}
-    </h2>
+    </h3>
 
     {data.map((item, index) => (
       <div className="timeline-box__data" key={index}>
