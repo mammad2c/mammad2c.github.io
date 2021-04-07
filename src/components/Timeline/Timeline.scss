@@ -95,7 +95,7 @@
     &__duration {
       position: static;
       margin-bottom: $baseUnit;
-      background: $dark;
+      background: rgba($color: $blue-800, $alpha: 0.5);
       width: 100%;
       color: #fff;
       text-align: center;
