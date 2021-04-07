@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import ColoredLink from "../ColoredLink";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
 interface IProps {
@@ -41,7 +42,7 @@ const TimelineBox = ({ iconName, title, data }: IProps) => (
         {item.content && (
           <div className="timeline-box__content">{item.content}</div>
         )}
-        {item.url && <a href={item.url}>{item.url}</a>}
+        {item.url && <ColoredLink href={item.url}>{item.url}</ColoredLink>}
       </div>
     ))}
   </section>

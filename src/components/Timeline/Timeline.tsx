@@ -1,4 +1,5 @@
 import TimelineBox from "./TimelineBox";
+import ColoredLink from "../ColoredLink";
 
 // {
 //     label: "",
@@ -20,7 +21,9 @@ const personalInfo = [
   },
   {
     label: "Twitter",
-    content: <a href="https://twitter.com/mammad2c">@mammad2c</a>,
+    content: (
+      <ColoredLink href="https://twitter.com/mammad2c">@mammad2c</ColoredLink>
+    ),
   },
   {
     label: "Marital status",
@@ -29,15 +32,17 @@ const personalInfo = [
   {
     label: "GitHub",
     content: (
-      <a href="https://github.com/mammad2c">https://github.com/mammad2c</a>
+      <ColoredLink href="https://github.com/mammad2c">
+        https://github.com/mammad2c
+      </ColoredLink>
     ),
   },
   {
     label: "Ponisha",
     content: (
-      <a href="https://ponisha.ir/profile/mammad2c">
+      <ColoredLink href="https://ponisha.ir/profile/mammad2c">
         https://ponisha.ir/profile/mammad2c
-      </a>
+      </ColoredLink>
     ),
   },
 ];
