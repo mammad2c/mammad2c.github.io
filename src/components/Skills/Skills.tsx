@@ -10,7 +10,7 @@ const skills = [
     rate: 5,
   },
   {
-    title: "Next JS",
+    title: "NextJS",
     rate: 4,
   },
   {
@@ -18,7 +18,7 @@ const skills = [
     rate: 3,
   },
   {
-    title: "VueJs",
+    title: "Vue",
     rate: 5,
   },
   {

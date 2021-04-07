@@ -70,8 +70,8 @@ const experiences = [
           <li> PSD to HTML </li>
           <li> jQuery plugins </li>
           <li> React </li>
-          <li> VueJs </li>
-          <li> Node js </li>
+          <li> Vue </li>
+          <li> NodeJS </li>
         </ul>
       </>
     ),
