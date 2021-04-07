@@ -1,11 +1,12 @@
 import { ReactNode } from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { IconProp } from "@fortawesome/fontawesome-svg-core";
 interface IProps {
-  iconName: string;
+  iconName: IconProp;
   title: string;
   data: Array<{
     label?: string;
-    content: JSX.Element;
+    content?: JSX.Element;
     duration?: {
       from: string;
       to?: string | null;
@@ -17,10 +18,12 @@ interface IProps {
 
 const TimelineBox = ({ iconName, title, data }: IProps) => (
   <section className="timeline-box">
-    <h3 className="timeline-box__title">
-      <i className={`timeline-box__icon ${iconName}`} />
-      {title}
-    </h3>
+    <h4 className="timeline-box__title">
+      <span>
+        <FontAwesomeIcon icon={iconName} className="timeline-box__icon" />
+        {title}
+      </span>
+    </h4>
 
     {data.map((item, index) => (
       <div className="timeline-box__data" key={index}>
@@ -35,7 +38,9 @@ const TimelineBox = ({ iconName, title, data }: IProps) => (
           </div>
         )}
         {item.label && <h4 className="timeline-box__label">{item.label}</h4>}
-        <div className="timeline-box__content">{item.content}</div>
+        {item.content && (
+          <div className="timeline-box__content">{item.content}</div>
+        )}
         {item.url && <a href={item.url}>{item.url}</a>}
       </div>
     ))}

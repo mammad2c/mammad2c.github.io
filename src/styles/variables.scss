@@ -1,5 +1,8 @@
-$body-bg: #fbfbfb;
-$dark: #373d48;
+/* bootstrap */
+@import "~bootstrap/scss/bootstrap.scss";
+
+$body-bg: $gray-100;
+$dark: $blue-800;
 
 $baseUnit: 15px;
 $mdUnit: $baseUnit * 2;

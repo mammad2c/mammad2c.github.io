@@ -41,19 +41,27 @@
 
   &__icon {
     margin-right: 10px;
-    font-size: 25px;
   }
 
   &__title {
     margin-bottom: $mdUnit;
     word-break: break-word;
-    background-color: $dark;
-    color: #fff;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    padding: 15px;
     margin-left: -40px;
-    max-width: 80%;
+
+    span {
+      background-color: $dark;
+      color: #fff;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+      padding: $baseUnit;
+      display: inline-block;
+    }
+
+    @include media-breakpoint-up(sm) {
+      span {
+        padding: $baseUnit $lgUnit $baseUnit $baseUnit;
+      }
+    }
   }
 
   &__content {
@@ -83,7 +91,7 @@
     width: 85px;
   }
 
-  @media (max-width: 767px) {
+  @include media-breakpoint-down(md) {
     &__duration {
       position: static;
       margin-bottom: $baseUnit;

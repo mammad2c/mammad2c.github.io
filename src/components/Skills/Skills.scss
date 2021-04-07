@@ -9,7 +9,11 @@
   padding: $baseUnit $baseUnit/2;
   margin-bottom: $baseUnit;
 
-  .dv-star-rating {
-    width: 100px;
+  &__rate {
+    width: 90px;
+  }
+
+  &__rate-full {
+    color: $yellow;
   }
 }

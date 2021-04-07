@@ -229,7 +229,11 @@ const volunteerWorks = [
 const educations = [
   {
     label: "Bachelor of Computer Engineering",
-    content: <></>,
+    content: (
+      <>
+        <h5>Azad University Of Mashhad</h5>
+      </>
+    ),
     duration: {
       from: "2016-1",
       to: "2020-1",
@@ -281,55 +285,51 @@ const interests = [
 const Timeline: React.SFC = () => (
   <div className="timeline">
     {/* Personal Info */}
-    <TimelineBox
-      iconName="fa fa-user"
-      title="Personal Info"
-      data={personalInfo}
-    />
+    <TimelineBox iconName="user" title="Personal Info" data={personalInfo} />
 
     {/* Summary */}
-    <TimelineBox iconName="fa fa-dot-circle" title="Summary" data={summary} />
+    <TimelineBox iconName="dot-circle" title="Summary" data={summary} />
 
     {/* Experiences */}
     <TimelineBox
-      iconName="fa fa-business-time"
+      iconName="business-time"
       title="Experiences"
       data={experiences}
     />
 
     {/* Projects */}
-    <TimelineBox iconName="fa fa-tv" title="Projects" data={projects} />
+    <TimelineBox iconName="tv" title="Projects" data={projects} />
 
     {/* Volunteer Works */}
     <TimelineBox
-      iconName="fa fa-heart"
+      iconName="heart"
       title="Volunteer Works"
       data={volunteerWorks}
     />
 
     {/* Opensource Projects  */}
     <TimelineBox
-      iconName="fa fa-hands-helping"
+      iconName="hands-helping"
       title="Opensource Projects"
       data={oppensourceProjects}
     />
 
     {/* Education */}
     <TimelineBox
-      iconName="fa fa-graduation-cap"
+      iconName="graduation-cap"
       title="Education"
       data={educations}
     />
 
     {/* Certificates */}
     <TimelineBox
-      iconName="fa fa-certificate"
+      iconName="certificate"
       title="Certificates"
       data={certificates}
     />
 
     {/* Interests */}
-    <TimelineBox iconName="fa fa-star" title="Interests" data={interests} />
+    <TimelineBox iconName="star" title="Interests" data={interests} />
   </div>
 );
 
