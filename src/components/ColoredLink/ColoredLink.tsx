@@ -11,10 +11,11 @@ interface Props
 const ColoredLink = ({
   children,
   className,
+  target = "_blank",
   color = "primary",
   ...props
 }: Props): JSX.Element => (
-  <a className={`link-${color} ${className || ""}`} {...props}>
+  <a target={target} className={`link-${color} ${className || ""}`} {...props}>
     {children}
   </a>
 );
