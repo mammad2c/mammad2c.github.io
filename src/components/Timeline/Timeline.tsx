@@ -47,13 +47,12 @@ const summary = [
     content: (
       <>
         <p>
-          Experiences with many front end technologies. Such as ReactJs, Redux,
+          Experiences with many front end technologies. Such as React, Redux,
           Webpack and so on.
         </p>
         <p>
           Freelancer from 2014. I participated in several projects such as PSD
-          to HTML, writing jQuery plugins, Web application with ReactJs and ...
-          .
+          to HTML, writing jQuery plugins, Web application with React and ... .
         </p>
         <p>Gained a lot of experience in projects and found lovely friends.</p>
       </>
@@ -70,6 +69,8 @@ const experiences = [
         <ul>
           <li> PSD to HTML </li>
           <li> jQuery plugins </li>
+          <li> React </li>
+          <li> VueJs </li>
           <li> Node js </li>
         </ul>
       </>
@@ -95,14 +96,14 @@ const experiences = [
     },
   },
   {
-    label: "ReactJS and React Native Developer",
+    label: "React and React Native Developer",
     content: (
       <>
         <h5>Profile.ir</h5>
         <p>Profile is a social network for expert.</p>
         <p>
           In this company we developed React Native application and dashboard
-          using React, Redux.
+          using React, Redux, Redux Saga.
         </p>
       </>
     ),
@@ -121,7 +122,7 @@ const experiences = [
             Main site of Hamrah Doctor. hamrahdoctor.com - landing page
             HTML/CSS/JS/jQuery
           </li>
-          <li>Diabetes - Hamrah Doctor - ReactJs and React Material</li>
+          <li>Diabetes - Hamrah Doctor - React and React Material</li>
           <li>
             Blog - Hamrah Doctor - HTML/CSS/JS/jQuery integrate with Wordpress
           </li>

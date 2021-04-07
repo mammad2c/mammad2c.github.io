@@ -2,12 +2,16 @@ import SkillBox from "./SkillBox";
 
 const skills = [
   {
-    title: "ReactJs",
+    title: "React",
     rate: 5,
   },
   {
     title: "Redux",
     rate: 5,
+  },
+  {
+    title: "Next JS",
+    rate: 4,
   },
   {
     title: "MobX",
@@ -30,7 +34,7 @@ const skills = [
     rate: 4,
   },
   {
-    title: "GulpJs",
+    title: "GulpJS",
     rate: 4,
   },
   {
@@ -46,7 +50,7 @@ const skills = [
     rate: 5,
   },
   {
-    title: "Node Js",
+    title: "NodeJS",
     rate: 3,
   },
   {
@@ -62,7 +66,7 @@ const skills = [
     rate: 3,
   },
   {
-    title: "Express Js",
+    title: "ExpressJS",
     rate: 3,
   },
   {
@@ -94,13 +98,13 @@ const Skills: React.FC = () => {
   return (
     <div className="skills">
       <div className="skills__item">
-        <h3>Skills:</h3>
+        <h3>Skills</h3>
         {skills.map((item, index) => (
           <SkillBox key={index} title={item.title} rate={item.rate} />
         ))}
       </div>
       <div className="skills__item">
-        <h3>Languages:</h3>
+        <h3>Languages</h3>
         {languages.map((item, index) => (
           <SkillBox key={index} title={item.title} rate={item.rate} />
         ))}
