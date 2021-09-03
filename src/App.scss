@@ -1,9 +1,10 @@
-@import "./styles/variables.scss";
+@use "sass:math";
+@import "./styles/variables";
 
 /* components */
-@import "./components/Timeline/Timeline.scss";
-@import "./components/Skills/Skills.scss";
+@import "./components/Timeline/Timeline";
+@import "./components/Skills/Skills";
 
 /* styles */
-@import "./styles/styles.scss";
-@import "./styles/helpers.scss";
+@import "./styles/styles";
+@import "./styles/helpers";

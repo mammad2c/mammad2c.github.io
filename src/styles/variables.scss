@@ -1,9 +1,9 @@
 /* bootstrap */
-@import "~bootstrap/scss/bootstrap.scss";
+@import "~bootstrap/scss/bootstrap";
 
 $body-bg: $gray-100;
 $dark: $blue-800;
 
-$baseUnit: 15px;
-$mdUnit: $baseUnit * 2;
-$lgUnit: $baseUnit * 4;
+$base-unit: 15px;
+$md-unit: $base-unit * 2;
+$lg-unit: $base-unit * 4;

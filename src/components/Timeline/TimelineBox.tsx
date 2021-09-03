@@ -17,7 +17,7 @@ interface IProps {
   children?: ReactNode;
 }
 
-const TimelineBox = ({ iconName, title, data }: IProps) => (
+const TimelineBox = ({ iconName, title, data }: IProps): JSX.Element => (
   <section className="timeline-box">
     <h4 className="timeline-box__title">
       <span>

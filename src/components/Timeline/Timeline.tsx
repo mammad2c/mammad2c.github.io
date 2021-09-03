@@ -1,5 +1,6 @@
 import TimelineBox from "./TimelineBox";
 import ColoredLink from "../ColoredLink";
+import { FunctionComponent } from "react";
 
 // {
 //     label: "",
@@ -288,7 +289,7 @@ const interests = [
   },
 ];
 
-const Timeline: React.SFC = () => (
+const Timeline: FunctionComponent = () => (
   <div className="timeline">
     {/* Personal Info */}
     <TimelineBox iconName="user" title="Personal Info" data={personalInfo} />

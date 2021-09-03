@@ -2,8 +2,9 @@ import "./App.scss";
 import MyAvatar from "./assets/images/avatar.jpg";
 import Timeline from "./components/Timeline/Timeline";
 import Skills from "./components/Skills/Skills";
+import { FC } from "react";
 
-const App: React.FC = () => (
+const App: FC = () => (
   <div className="container">
     <div className="bio-box">
       <div className="row">

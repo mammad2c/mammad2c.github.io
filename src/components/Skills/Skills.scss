@@ -1,13 +1,14 @@
 .skills {
+
   &__item {
-    margin-bottom: $lgUnit;
+    margin-bottom: $lg-unit;
   }
 }
 
 .skill-box {
   border-bottom: 1px solid $dark;
-  padding: $baseUnit $baseUnit/2;
-  margin-bottom: $baseUnit;
+  margin-bottom: $base-unit;
+  padding: $base-unit math.div($base-unit, 2);
 
   &__rate {
     width: 90px;
