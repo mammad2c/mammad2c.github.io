@@ -13,9 +13,15 @@ const ColoredLink = ({
   className,
   target = "_blank",
   color = "primary",
+  rel = "noopener noreferrer",
   ...props
 }: Props): JSX.Element => (
-  <a target={target} className={`link-${color} ${className || ""}`} {...props}>
+  <a
+    target={target}
+    className={`link-${color} ${className || ""}`}
+    rel={rel}
+    {...props}
+  >
     {children}
   </a>
 );
