@@ -424,6 +424,17 @@ const oppensourceProjects = [
     content: <>A pure js persian datepicker, powered by TypeScript :)</>,
     url: "https://github.com/mammad2c/mmd-persian-datepicker",
   },
+  {
+    label: "Mmd Gitlab Backuper",
+    content: (
+      <>
+        A command line package to backup your repositories in your local from
+        Gitlab. Because of U.S Sanctions there is high risk without any backup.
+        This script supports for users that run gitlab on their own servers.
+      </>
+    ),
+    url: "https://github.com/mammad2c/mmd-gitlab-backuper",
+  },
 ];
 
 const volunteerWorks = [
