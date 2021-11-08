@@ -408,7 +408,7 @@ const projects = [
   },
 ];
 
-const oppensourceProjects = [
+const openSourceProjects = [
   {
     label: "Mmd React SSR",
     content: (
@@ -537,11 +537,11 @@ const Timeline: FunctionComponent = () => (
       data={volunteerWorks}
     />
 
-    {/* Opensource Projects  */}
+    {/* Open source Projects  */}
     <TimelineBox
       iconName="hands-helping"
-      title="Opensource Projects"
-      data={oppensourceProjects}
+      title="Open Source Projects"
+      data={openSourceProjects}
     />
 
     {/* Education */}
