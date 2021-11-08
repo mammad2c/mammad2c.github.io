@@ -20,6 +20,12 @@
   padding-left: $md-unit + 10;
   position: relative;
 
+  &__duration {
+    position: absolute;
+    right: 100%;
+    width: 85px;
+  }
+
   @include media-breakpoint-down(md) {
     &__duration {
       background: rgba($color: $blue-800, $alpha: 0.5);
@@ -32,6 +38,7 @@
       position: static;
       text-align: center;
       width: 100%;
+      position: static;
     }
   }
 
@@ -99,11 +106,5 @@
 
   &__content ul li {
     margin-bottom: 7px;
-  }
-
-  &__duration {
-    position: absolute;
-    right: 100%;
-    width: 85px;
   }
 }

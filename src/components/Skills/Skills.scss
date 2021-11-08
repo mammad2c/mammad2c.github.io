@@ -1,5 +1,4 @@
 .skills {
-
   &__item {
     margin-bottom: $lg-unit;
   }
@@ -12,6 +11,7 @@
 
   &__rate {
     width: 90px;
+    white-space: nowrap;
   }
 
   &__rate-full {
