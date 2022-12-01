@@ -516,48 +516,40 @@ const Timeline: FunctionComponent = () => (
   <div className="timeline">
     {/* Personal Info */}
     <TimelineBox iconName="user" title="Personal Info" data={personalInfo} />
-
     {/* Summary */}
     <TimelineBox iconName="dot-circle" title="Summary" data={summary} />
-
     {/* Experiences */}
     <TimelineBox
       iconName="business-time"
       title="Experiences"
       data={experiences}
     />
-
     {/* Projects */}
     <TimelineBox iconName="tv" title="Projects" data={projects} />
-
     {/* Volunteer Works */}
     <TimelineBox
       iconName="heart"
       title="Volunteer Works"
       data={volunteerWorks}
     />
-
     {/* Open source Projects  */}
     <TimelineBox
       iconName="hands-helping"
       title="Open Source Projects"
       data={openSourceProjects}
     />
-
     {/* Education */}
     <TimelineBox
       iconName="graduation-cap"
       title="Education"
       data={educations}
     />
-
     {/* Certificates */}
     <TimelineBox
       iconName="certificate"
       title="Certificates"
       data={certificates}
     />
-
     {/* Interests */}
     <TimelineBox iconName="star" title="Interests" data={interests} />
   </div>

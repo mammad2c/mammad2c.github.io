@@ -9,7 +9,7 @@
     "es2021": true
   },
   "extends": [
-    "standard",
+    "eslint:recommended",
     "plugin:react/recommended",
     "prettier",
     "plugin:@typescript-eslint/recommended"
